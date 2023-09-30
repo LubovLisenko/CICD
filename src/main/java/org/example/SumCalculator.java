@@ -3,7 +3,7 @@ package org.example;
 import java.util.stream.IntStream;
 
 public class SumCalculator {
-    public int sum(int n) {
+     public int sum(int n) {
         int sumCalc = 0;
         if (n == 0) {
             throw new IllegalArgumentException();
